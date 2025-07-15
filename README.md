@@ -1,0 +1,1 @@
+Automatically turns off the VPS once the limit is reached.
