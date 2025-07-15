@@ -1,4 +1,4 @@
-Automatically turns off the VPS once the limit is reached.
+Automatically turns off the VPS once the bandwidth limit is reached.
 
 ### Steps to install:
 
