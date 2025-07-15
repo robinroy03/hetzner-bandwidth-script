@@ -4,12 +4,14 @@ import urllib.request
 import urllib.error
 import json
 import sys
+from datetime import datetime
 
 load_dotenv()
 API_TOKEN = os.getenv("HETZNER_API_KEY")
 SERVER_ID = os.getenv("HETZNER_SERVER_ID")
 
 
+print(f"[{datetime.now()}] Script ran")
 if not API_TOKEN or not SERVER_ID:
     print("Error: HETZNER_API_TOKEN and HETZNER_SERVER_ID must be set.")
     sys.exit(1)
